@@ -169,66 +169,64 @@
       "id": 2
     }
   ],
-  "myburger": {
-    "ingredients": {
-      "carnes":[
+  "myburger": [
+    {
+      "name": "primeito hamburgrer",
+      "ingredients": [
         "acém",
-        "carne moída",
-        "bacon",
-        "alcatra",
-        "fraldinha",
-        "maminha",
-        "peito"
-      ],
-      "molhos":[
-        "ketchup",
-        "maionese",
-        "maionese verde",
-        "molho rosé",
-        "cheddar",
-        "molho de alho",
-        "barbecue",
+        "cebola",
         "pimenta"
       ],
-      "paes":[
-        "americano",
-        "brioche",
-        "ciabatta",
-        "pão de cebola",
-        "italiano",
-        "xis"
-      ],
-      "acompanhamento":[
-        "batata frita",
-        "onion rings",
-        "cebola empanada"
-      ],
-      "salada":[
-        "tomate",
-        "alface",
-        "cebola",
-        "repolho",
-        "grão de bico"
-      ],
-      "queijos":[
-        "cheddar",
-        "gorgonzola",
-        "american cheese",
-        "mussarela"
-      ]
-    },
-    "list": [
-      {
-        "name": "primeito hamburgrer",
-        "ingredients": [
-          "acém",
-          "cebola",
-          "pimenta"
-        ],
-        "price": 13,
-        "stars": 1,
-        "id": 1
-      }
+      "price": 13,
+      "stars": 1,
+      "id": 1
+    }
+  ],
+  "ingredients": {
+    "carnes": [
+      "acém",
+      "carne moída",
+      "bacon",
+      "alcatra",
+      "fraldinha",
+      "maminha",
+      "peito"
+    ],
+    "molhos": [
+      "ketchup",
+      "maionese",
+      "maionese verde",
+      "molho rosé",
+      "cheddar",
+      "molho de alho",
+      "barbecue",
+      "pimenta"
+    ],
+    "paes": [
+      "americano",
+      "brioche",
+      "ciabatta",
+      "pão de cebola",
+      "italiano",
+      "xis"
+    ],
+    "acompanhamento": [
+      "batata frita",
+      "onion rings",
+      "cebola empanada"
+    ],
+    "salada": [
+      "tomate",
+      "alface",
+      "cebola",
+      "repolho",
+      "grão de bico"
+    ],
+    "queijos": [
+      "cheddar",
+      "gorgonzola",
+      "american cheese",
+      "mussarela"
     ]
   }
 }
