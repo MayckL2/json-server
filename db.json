@@ -130,16 +130,22 @@
   },
   "shoplist": [
     {
-      "id": 1,
-      "item": "Detergente",
-      "preco": 5,
+      "item": "cerveja",
+      "preco": 20,
+      "marked": false,
+      "id": 1
+    },
+    {
+      "item": "jamba",
+      "preco": "4.5",
+      "id": 2,
       "marked": true
     },
     {
-      "item": "Sabão em pó",
-      "preco": 10,
-      "marked": false,
-      "id": 2
+      "item": "lança",
+      "preco": "30.99",
+      "id": 3,
+      "marked": false
     }
   ],
   "bank": {
@@ -162,5 +168,64 @@
       "remnant": 0,
       "id": 2
     }
-  ]
+  ],
+  "myburger": {
+    "ingredients": {
+      "carnes":[
+        "acém",
+        "carne moída",
+        "bacon",
+        "alcatra",
+        "fraldinha",
+        "maminha",
+        "peito"
+      ],
+      "molhos":[
+        "ketchup",
+        "maionese",
+        "maionese verde",
+        "molho rosé",
+        "cheddar",
+        "molho de alho",
+        "barbecue",
+        "pimenta"
+      ],
+      "paes":[
+        "americano",
+        "brioche",
+        "ciabatta",
+        "pão de cebola",
+        "italiano",
+        "xis"
+      ],
+      "acompanhamento":[
+        "batata frita",
+        "onion rings",
+        "cebola empanada"
+      ],
+      "salada":[
+        "tomate",
+        "alface",
+        "cebola",
+        "repolho",
+        "grão de bico"
+      ],
+      "queijos":[
+        "cheddar",
+        "gorgonzola",
+        "american cheese",
+        "mussarela"
+      ]
+    },
+    "list": [
+      {
+        "name": "primeito hamburgrer",
+        "ingredients": [
+          "acém",
+          "cebola",
+          "pimenta"
+        ]
+      }
+    ]
+  }
 }
