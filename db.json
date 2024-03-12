@@ -224,7 +224,10 @@
           "acém",
           "cebola",
           "pimenta"
-        ]
+        ],
+        "price": 13,
+        "stars": 1,
+        "id": 1
       }
     ]
   }
